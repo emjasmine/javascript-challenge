@@ -55,18 +55,3 @@ function handleChange(event) {
   };
 inputValue.on("change", handleChange);
 
-
-// //append filtered data to table
-// filteredData.forEach((item)=>{
-//     //add a row
-//     var row = tbody.append("tr");
-   
-//     //append the date, city, state, country, shape, duration, comments
-//     row.append("td").text(item.datetime);  
-//     row.append("td").text(item.city);  
-//     row.append("td").text(item.state);  
-//     row.append("td").text(item.country);  
-//     row.append("td").text(item.shape);  
-//     row.append("td").text(item.durationMinutes);  
-//     row.append("td").text(item.comments); 
-//  });
